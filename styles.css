@@ -1,0 +1,11 @@
+.Button Float{
+
+}
+
+.Button.Float.Left{
+    float: Left;
+}
+
+.Button.Float.Right{
+    float: right;
+}
