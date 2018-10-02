@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheet" type="text/css" href="styles.css">
         <meta charset="UTF-8">
         <title>1. Page</title>
     </head>
     <body>
         <form>
-            <button class="Button Float Left">Button 1</button>
-            <button class="Button Float Left">Button 2</button>
-            <button class="Button Float Right">Button 3</button>
+            <div id="BigBtnGroup">
+                <div id="FirstBtnGroup">
+                    <button class="Button Float Left">Create new Note</button>
+                    <button class="Button Float Right">Style Switcher</button>
+                </div>
+                <div id="SecondBtnGroup">
+                    <button class="Button Float Left">By finish Date</button>
+                    <button class="Button Float Left">By created Date</button>
+                    <button class="Button Float Left">By Importance</button>
+                    <button class="Button Float Right">Hide Finished</button>
+                </div>
+            </div>
         </form>
     </body>
 </html>

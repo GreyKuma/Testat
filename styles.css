@@ -1,5 +1,12 @@
-.Button Float{
+:root{
+    --Btn-width: 100px
+}
 
+#BigBtnGroup{
+    display: grid;
+}
+.Button.Float{
+    width: 150px;
 }
 
 .Button.Float.Left{
