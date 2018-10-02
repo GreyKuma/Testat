@@ -1,12 +1,12 @@
 :root{
-    --Btn-width: 100px
+    --Btn-width: 150px
 }
 
 #BigBtnGroup{
     display: grid;
 }
 .Button.Float{
-    width: 150px;
+    width: var(--Btn-width);
 }
 
 .Button.Float.Left{
